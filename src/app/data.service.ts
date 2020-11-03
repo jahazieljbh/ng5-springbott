@@ -21,7 +21,7 @@ export class DataService {
   }
 
   #apiURL = 'http://localhost:8080';
-  apiURL = 'http://104.198.244.0:8192';
+  apiURL = 'http://104.198.244.0:5044';
 
   httpOptions = {
     headers: new HttpHeaders({
