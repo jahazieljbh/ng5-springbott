@@ -20,7 +20,6 @@ export class DataService {
     this.goals.next(goal);
   }
 
-  #apiURL = 'http://localhost:8080';
   apiURL = 'http://104.198.244.0:5044';
 
   httpOptions = {
