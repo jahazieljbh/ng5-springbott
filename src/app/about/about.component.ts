@@ -15,12 +15,9 @@ export class AboutComponent implements OnInit {
   constructor(private route: ActivatedRoute, private router: Router, private _data: DataService) {
     this.route.params.subscribe(res => console.log(res.id));
    }
-
   ngOnInit() {
     this._data.goal.subscribe(res => this.goals = res);
   }
-
-
   sendMeHome() {
     this.router.navigate(['']);
   }
